@@ -1,4 +1,5 @@
 import { Box, Button, Grid, Stack, Typography } from "@mui/material";
+import AccessPointTile from "../at";
 
 const Website = ()=>{
     return (
@@ -6,6 +7,7 @@ const Website = ()=>{
         verticalAlign:'center'
     }}>
         <Grid container spacing={2}>
+        <AccessPointTile/>
             <Grid item lg={12} md={12}>
                 <Typography fontWeight={"bold"} variant="h4">SChatt</Typography>
             </Grid>

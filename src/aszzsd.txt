@@ -1,0 +1,89 @@
+[
+    {
+        "ProjectSpace": "CDH",
+        "Persona": "Data Engineer",
+        "Project": "vz-it-np-hukv-dev-cdwldo-0",
+        "AccessPointList": [
+            {
+                "AccessPoint": "NonSec",
+                "Dataset": [
+                    {
+                        "Environment": "Dev",
+                        "Asset": [
+                            {
+                                "Database": "vzw_cdh_prd_qestbls",
+                                "Access": "rw"
+                            },
+                            {
+                                "Database": "vzw_cdh_prd_tbls",
+                                "Access": "rw"
+                            },
+                            {
+                                "Database": "vzw_uip_prd_tbls",
+                                "Access": "rw"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ProjectSpace": "CDH",
+        "Persona": "Data Engineer",
+        "Project": "vz-it-np-hukv-test-cdwldo-0",
+        "AccessPointList": [
+            {
+                "AccessPoint": "NonSec",
+                "Dataset": [
+                    {
+                        "Environment": "Test",
+                        "Asset": [
+                            {
+                                "Database": "vzw_cdh_prd_qestbls",
+                                "Access": "rw"
+                            },
+                            {
+                                "Database": "vzw_cdh_prd_tbls",
+                                "Access": "rw"
+                            },
+                            {
+                                "Database": "vzw_uip_prd_tbls",
+                                "Access": "rw"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "ProjectSpace": "CDH",
+        "Persona": "Data Engineer",
+        "Project": "vz-it-pr-hukv-cdwldo-0",
+        "AccessPointList": [
+            {
+                "AccessPoint": "NonSec",
+                "Dataset": [
+                    {
+                        "Environment": "Prod",
+                        "Asset": [
+                            {
+                                "Database": "vzw_cdh_prd_qestbls",
+                                "Access": "ro"
+                            },
+                            {
+                                "Database": "vzw_cdh_prd_tbls",
+                                "Access": "ro"
+                            },
+                            {
+                                "Database": "vzw_uip_prd_tbls",
+                                "Access": "ro"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
