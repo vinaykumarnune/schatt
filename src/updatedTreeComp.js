@@ -35,7 +35,7 @@ const MUITable = (props)=>{
                 style={{ minWidth: column.minWidth }}
                 colSpan={column.colSpan}
               >
-                {column.label}
+                {column.label}s
               </TableCell>
             ))}
           </TableRow>
